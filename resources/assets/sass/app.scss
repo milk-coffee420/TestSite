@@ -1,0 +1,12 @@
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.bootstrap {
+  //@import '~bootstrap/scss/bootstrap';
+  @import '~bulma/bulma.sass';
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}

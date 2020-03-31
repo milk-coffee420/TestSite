@@ -1,0 +1,30 @@
+<?php
+
+// アカウント情報
+return [
+    'info_title'                   => '現在の登録情報',
+    'info_message'                 => 'お名前、メールアドレスが運営事務局以外に公開されることはありません。',
+    'change_name'                  => '名前の変更',
+    'change_nickname'              => 'ニックネームの変更',
+    'change_email'                 => 'メールアドレスの変更',
+    'change_password'              => 'パスワードの変更',
+    'change_name_note'             => '※名前は運営事務局以外には公開されません。',
+    'change_name_done'             => '名前を変更する',
+    'change_nickname_note'         => '※フォーラムなどで他ユーザーに表示されます。',
+    'change_nickname_done'         => 'ニックネームを変更する',
+    'change_email_note'            => '現在登録されているメールアドレスに変更確認のメールを送信します。<br />確認メール内のリンクを   クリックすることでメールアドレスの変更が完了します。',
+    'change_email_done'            => 'メールアドレス変更確認のメールを送信する',
+    'change_email_success'         => 'メールアドレスの変更を確認しました。',
+    'change_pref'                  => '都道府県の登録',
+    'change_pref_note'             => 'お住いの都道府県を選択してください。',
+    'change_pref_done'             => '都道府県を変更する',
+    'change_tradingview_name'      => 'トレーディングビューユーザー名の変更',
+    'change_tradingview_name_note' => '※半角英数字、30文字以内で入力してください。',
+    'change_tradingview_name_done' => 'トレーディングビューユーザーネームの登録',
+    'change_password_done'         => 'パスワードを変更する',
+    'change_success'               => '%sを変更しました。',
+    'failed_password_current'      => ':attributeが正しくありません。',
+    'failed_change_email'          => 'メールアドレスの変更に失敗しました。時間を置いて再度変更してください。',
+    'invalid_confirm'              => '無効な確認トークンです。',
+    'sent_confirm_email'           => '変更確認メールを変更前のメールアドレスに送信しました。',
+];

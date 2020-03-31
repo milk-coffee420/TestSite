@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: YuGothicM;
+  src: local("Yu Gothic Medium");
+}
+
+@media screen and (min-width: 768px) {
+  .pc {
+    display: block !important;
+  }
+
+  .sp {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .pc,
+  .pc_ex {
+    display: none !important;
+  }
+
+  .sp {
+    display: block !important;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "palt";
+  -moz-font-feature-settings: "palt";
+  -webkit-font-feature-settings: "palt";
+  font-family: "HiraKakuProN-W3", "\30D2\30E9\30AE\30CE\89D2\30B4   Pro W3", "Hiragino Kaku Gothic Pro", "\30E1\30A4\30EA\30AA", "Meiryo", "\FF2D\FF33   \FF30\30B4\30B7\30C3\30AF", "sans-serif";
+}
+
+.admin_movie_card a .card-content {
+  color: #4a4a4a;
+}
+

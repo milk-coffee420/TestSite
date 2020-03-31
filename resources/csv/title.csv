@@ -1,0 +1,14 @@
+name	title	desc	keyword
+home	Lorem Ipsum | Top
+admin.index	管理画面
+login	ログイン
+admin.profile	管理画面 | 管理者情報
+admin.edit	管理画面 | 管理者情報 | 編集
+news.index	管理画面 | お知らせ管理 | 一覧
+news.create	管理画面 | お知らせ管理 | 作成
+news.edit	管理画面 | お知らせ管理 | 編集
+admin.news.trashed	管理画面 | お知らせ管理 | ごみ箱
+movie.index	管理画面 | 動画管理 | 一覧
+movie.create	管理画面 | 動画管理 | 作成
+movie.edit	管理画面 | 動画管理 | 編集
+admin.movie.trashed	管理画面 | 動画管理 | ごみ箱

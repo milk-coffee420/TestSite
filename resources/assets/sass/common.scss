@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import "settings";
+
+@font-face {
+  font-family: YuGothicM;
+  src: local("Yu Gothic Medium");
+}
+
+@include mq-up(md){
+  .pc {
+    display: block !important;
+  }
+  .sp {
+    display: none !important;
+  }
+}
+
+@include mq-down(md){
+  .pc, .pc_ex {
+    display: none !important;
+  }
+
+  .sp {
+    display: block !important;
+  }
+
+
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "palt";
+  -moz-font-feature-settings: "palt";
+  -webkit-font-feature-settings: "palt";
+  font-family: "HiraKakuProN-W3", "ヒラギノ角ゴ Pro W3",
+  "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ\ Ｐゴシック",
+  "sans-serif";
+}
+
+//top
+//movie
+.admin_movie_card{
+  a{
+    .card-content{
+      color: #4a4a4a;
+    }
+  }
+}
+
