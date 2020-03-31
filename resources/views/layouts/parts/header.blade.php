@@ -16,9 +16,10 @@
                     <div class="container">
                         <ul class="hero_menu">
                             <li><a href="#sec1" class="my-tooltip" title="お知らせ"><i class="fas fa-newspaper"></i>News</a></li>
-                            <li><a href="#sec1" class="my-tooltip" title="Youtube"><i class="fas fa-user"></i>Movie</a></li>
-                            <li><a href="#sec1" class="my-tooltip" title="Something"><i class="fas fa-home"></i>Content</a></li>
-                            <li><a href="#sec1" class="my-tooltip" title="お問い合わせ"><i class="fas fa-home"></i>Contact</a></li>
+                            <li><a href="#sec2" class="my-tooltip" title="動画"><i class="fas fa-film"></i>Movie</a></li>
+                            <li><a href="#sec3" class="my-tooltip" title="投稿"><i class="fas fa-comment-dots"></i>Post</a></li>
+                            <li><a href="#sec4" class="my-tooltip" title="お問い合わせ"><i class="fas fa-home"></i>Contact</a></li>
+                            <li><a href="{{route('admin.index')}}" class="my-tooltip" title="管理画面"><i class="fas fa-cogs"></i>Admin</a></li>
                         </ul>
                     </div>
                 </nav>

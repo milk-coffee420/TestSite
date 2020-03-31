@@ -27,7 +27,9 @@ class PostRequest extends FormRequest
             //
             'title' => 'required|string',
             'text' => 'required|string',
-            'hashtag' => 'required|string',
+            'hashtag' => 'nullable|string',
+            'url' => 'required|regex:/^[!-~]+$/',
+            'image' => 'required|image|dimensions:width=480,height=360'
         ];
     }
 

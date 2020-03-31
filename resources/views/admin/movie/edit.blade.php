@@ -4,7 +4,7 @@
 
     <main class="admin">
         <div class="admin_content">
-            <h2 class="admin_pagetitle subtitle">お知らせ / 編集</h2>
+            <h2 class="admin_pagetitle subtitle">動画管理 / 編集</h2>
             <div class="admin_form">
                 {!! Form::model($item, ['action' => ['MovieController@update', $item->id]]) !!}
                 {{ csrf_field() }}

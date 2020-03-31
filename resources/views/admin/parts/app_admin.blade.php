@@ -34,8 +34,8 @@
                         <ul class="hero_menu">
                             <li><a href="{{ action('NewsController@index') }}" class="my-tooltip" title="お知らせ管理"><i class="fas fa-newspaper"></i>News</a></li>
                             <li><a href="{{ action('MovieController@index') }}" class="my-tooltip" title="動画管理"><i class="fas fa-film"></i>Movie</a></li>
+                            <li><a href="{{route('admin.post.index')}}" class="my-tooltip" title="投稿管理"><i class="fas fa-comment-dots"></i>Post</a></li>
                             <li><a href="{{route('admin.profile')}}" class="my-tooltip" title="管理者情報"><i class="fas fa-user"></i>User</a></li>
-                            <li><a href="{{route('home')}}" class="my-tooltip" title="ホームに戻る"><i class="fas fa-home"></i>Home</a></li>
                             <li><a href="{{ route('logout') }}" onclick="event.preventDefault();document.getElementById('logout-form').submit();" class="my-tooltip" title="ログアウト"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
                             <form id="logout-form" action="{{ route('logout') }}" method="POST">
                                 {{ csrf_field() }}

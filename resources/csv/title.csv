@@ -12,3 +12,5 @@ movie.index	管理画面 | 動画管理 | 一覧
 movie.create	管理画面 | 動画管理 | 作成
 movie.edit	管理画面 | 動画管理 | 編集
 admin.movie.trashed	管理画面 | 動画管理 | ごみ箱
+admin.post.index	管理画面 | 投稿管理 | 一覧
+admin.post.create	管理画面 | 投稿管理 | 作成

@@ -4,7 +4,7 @@
 
     <main class="admin">
         <div class="admin_content">
-            <h2 class="admin_pagetitle subtitle">お知らせ管理</h2>
+            <h2 class="admin_pagetitle subtitle">投稿管理</h2>
             <div class="admin_link_btn">
                 <a href="{{ action('PostController@create') }}" class="button is-primary is-hovered is-rounded">新規作成</a>
             </div>
@@ -18,6 +18,8 @@
                         <th>タイトル</th>
                         <th>ハッシュタグ</th>
                         <th>テキスト</th>
+                        <th>URL</th>
+                        <th>画像</th>
                     </tr>
                     </thead>
 
@@ -67,6 +69,8 @@
                             <td>{{$item->title}}</td>
                             <td>{{$item->hashtag}}</td>
                             <td class="admin_list_text"><div class="admin_wordwrap">{{$item->text}}</div></td>
+                            <td>{{$item->url}}</td>
+                            <td>{{$item->image}}</td>
                         </tr>
                     @endforeach
                     </tbody>

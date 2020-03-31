@@ -35,7 +35,8 @@ return [
     'different'            => ':attributeと:otherには、異なった内容を指定してください。',
     'digits'               => ':attributeは:digits桁で指定してください。',
     'digits_between'       => ':attributeは:min桁から:max桁の間で指定してください。',
-    'dimensions'           => ':attributeの図形サイズが正しくありません。',
+    'dimensions'           => ':attributeのサイズが正しくありません。',
+    'dimensions:width=480,height=360'           => '横480px、縦360pxの画像を選択してください。',
     'distinct'             => ':attributeには異なった値を指定してください。',
     'email'                => ':attributeには、有効なメールアドレスを指定してください。',
     'exists'               => '選択された:attributeは正しくありません。',
@@ -132,6 +133,9 @@ return [
         'publish_time' => '公開時間',
         'published_time' => '公開時間',
         'finished_time' => '公開終了時間',
+        'title' => 'タイトル',
+        'hashtag' => 'ハッシュタグ',
+        'image' => '画像'
     ],
 
 

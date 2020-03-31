@@ -3,7 +3,8 @@
 // TOPページ
 Route::get('/', function () { return view('index'); })->name('home');
 
-
+//ダウンロード
+Route::get('download/{url}', 'DownloadController@index')->name('download');
 
 //認証
 //Auth::routes();

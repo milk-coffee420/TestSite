@@ -33,7 +33,7 @@ class Movie extends Model
     }
 
 
-    public static function getLatest($value = 6)
+    public static function getLatest($value = 3)
     {
         $movie = Movie::published()->orderBy('published_at', 'desc')->take($value)->get();
 

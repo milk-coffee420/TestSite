@@ -28,6 +28,8 @@ class Post extends Model
         'text',
         'title',
         'hashtag',
+        'image',
+        'url',
         'created_at',
         'updated_at',
         'deleted_at'
@@ -35,11 +37,19 @@ class Post extends Model
 
     public static function getLatest($value = 3)
     {
-        $movie = Movie::orderBy('created_at', 'desc')->take($value)->get();
+        $post = Post::orderBy('created_at', 'desc')->take($value)->get();
 
-        return $movie;
+        return $post;
 
     }
 
+    public static function findByUrl($url)
+    {
+        return self::where('url', $url)->first();
+    }
 
+    public function getPath()
+    {
+        return storage_path('app/public/images/' . $this->image);
+    }
 }
